@@ -5,3 +5,4 @@ c<-merge(a,b,by="pe",allow.cartesian=T) %>% .[, e:=ifelse((start<=date) & (date<
 
 
 aa<-data.table(c(1,2),c(3,4))
+
